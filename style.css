@@ -1,0 +1,237 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.contenedor{
+	/* display: flex; */
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	/* justify-content: center;
+	align-items: center; */
+	position: relative;
+	/* background: url('../img/ironBanner.png') no-repeat center rgba(0,0,0,1); */
+    background-size: cover;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url(menu.png)!important;
+}
+
+.banner{
+    width: 100%;
+    background: rgba;
+    background: #000000a3;
+}
+
+.mb-5, .my-5 {
+    margin-bottom: 15rem!important;
+}
+
+.contenido{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+	background: rgba(0,0,0,0.3);
+    z-index: 1;
+}
+
+
+.col-4{
+    pointer-events: none;
+}
+
+.videoBg{
+	position: absolute;
+	width: 100%;
+	pointer-events: none;
+	z-index: 0;
+    min-width: 1920px;
+}
+
+.z-index-1{
+    position: relative;
+    z-index: 1;
+}
+
+.btn-primary-b{
+    background-color: rgba(0, 0, 0, 0.658);
+}
+
+.border-b{
+    border-radius: 30px;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url(img/menu.png)!important;
+}
+
+
+@font-face{
+    font-family: agency;
+    src: url(Fuentes/agency-fb.ttf);
+}
+
+.text-agency{
+    font-family: agency;
+}
+
+video:focus{
+    outline:none;
+}
+
+#beneficios{
+    background-image: url(img/beneficios.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 90vh;
+}
+
+@font-face {
+    font-family: bison;
+    src: url(Fuentes/Bison-Bold.ttf);
+}
+
+@font-face{
+    font-family: orator;
+    src: url(Fuentes/OratorStd.ttf);
+}
+
+.subrayado{
+    border-bottom: 0px solid rgb(255, 0, 0);
+}
+
+.subrayado:hover{
+    border-bottom: 3px solid rgb(255, 16, 16);
+}
+
+.text-bison{
+    font-family: bison;
+}
+
+.text-orator{
+    font-family: orator;
+}
+
+@font-face{
+    font-family: bison;
+    src: url(Fuentes/Bison-Bold.ttf);
+}
+
+@font-face{
+    font-family: jane;
+    src: url(Fuentes/JaneSaloman.ttf);
+}
+
+.text-jane{
+    font-family: jane;
+}
+
+.row{
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.text-bison{
+    font-family: bison;
+}
+
+.border {
+    border: 20px solid #732424!important;
+}
+
+.border-y {
+    border: 5px solid #732424!important;
+}
+
+.border-d{
+    border: 1px solid gray!important;
+}
+
+.fa-facebook-f{
+    padding: 5px 8px;
+}
+
+.fa-twitter{
+    padding: 5px 5px;
+}
+
+.fa-instagram{
+    padding: 5px 6px;
+}
+
+.fa-fire-alt{
+    padding: 5px 6.5px;
+}
+
+.fa-tools{
+    padding: 25px 20px;
+}
+
+.fa-lightbulb{
+    padding: 20px 23px;
+}
+
+.fa-laptop{
+    padding: 26px 12px;
+}
+
+.fa-shopping-cart{
+    padding: 25px 15px;
+}
+
+@font-face{
+    font-family: orator;
+    src: url(Fuentes/OratorStd.ttf);
+}
+
+.text-orator{
+    font-family: orator;
+}
+
+#form {
+    width: 250px;
+    margin: 0 auto;
+    height: 50px;
+}
+  
+#form p {
+    text-align: center;
+}
+  
+#form label {
+    font-size: 20px;
+}
+  
+input[type="radio"] {
+    display: none;
+}
+  
+label {
+    color: rgb(255, 255, 255);
+}
+  
+.clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+  
+label:hover,
+label:hover ~ label {
+    color: rgb(226, 25, 25);
+}
+  
+input[type="radio"]:checked ~ label {
+    color: rgb(243, 17, 17);
+}
+
+
+
+
+
+
+ 
